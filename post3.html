@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Educa Online Learning Platfrom</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <img src="images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-x"></i>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="active"  href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="course.html">Courses</a>
+                </li>
+                <li>
+                    <a  href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!--Home-->
+
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/b4.png" alt="">
+                <h3>Learn Python In The Easiest Way</h3>
+                <p>Our Python course offers a comprehensive journey into one of the most versatile and in-demand programming languages today.
+                   Over 10 weeks, you will start with the fundamentals of Python, learning the basics of syntax, data types, and control structures. 
+                   As you progress, you'll dive into more advanced topics, including functions, object-oriented programming, and modules, which are 
+                   crucial for developing scalable and maintainable code. The course is designed to be hands-on, with practical assignments and real-world projects that help you apply your knowledge in meaningful ways. 
+                   <br><br>
+                   You'll also explore Python's powerful libraries and frameworks, such as NumPy for numerical computing, pandas for data analysis, 
+                   and Flask or Django for web development. Each module includes interactive lessons, coding exercises, and quizzes to reinforce 
+                   your understanding and track your progress. 
+                   <br><br>
+                   Additionally, the course emphasizes best practices for writing clean, efficient code 
+                   and troubleshooting common issues. By the end of the course, you'll have built a portfolio of Python projects that demonstrate your 
+                   skills and a certificate of completion to validate your expertise. Whether you’re looking to start a new career, enhance your programming 
+                   abilities, or delve into data science and web development, this course provides the knowledge and tools you need to succeed in the ever-evolving field of Python programming.
+                </p>
+
+                <a href="#">Read Next?</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+    
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+    
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+    
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Reaserch</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+    
+        <div class="footer-col">
+            <h3>Newslatter</h3>
+            <p>You can trust us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+    
+    
+        <div class="copyright">
+            <p>Copyright ©2024 All right reserved | This template is made by Raziya</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Script -->
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        })
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        })
+    </script>
+</body>
+</html>

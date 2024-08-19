@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Educa Online Learning Platfrom</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <img src="images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-x"></i>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="active"  href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="course.html">Courses</a>
+                </li>
+                <li>
+                    <a  href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!--Home-->
+
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/b3.png" alt="">
+                <h3>Learn UI/UX In The Easiest Way</h3>
+                <p>Our UI/UX Design course provides a thorough exploration of the principles and practices essential for creating user-centered designs that deliver engaging and intuitive experiences. 
+                  Over the course of 10 weeks, you will learn the fundamentals of user interface (UI) and user experience (UX) design, starting with key concepts such as user research, personas, 
+                  and user journey mapping. 
+                  <br><br>
+                  You’ll delve into wireframing and prototyping techniques, gaining hands-on experience with tools like Sketch, Figma, and Adobe XD to create interactive mockups and visual designs. 
+                  The course covers essential design principles, including color theory, typography, and layout, to help you build aesthetically pleasing and functional interfaces. As you advance, 
+                  you will learn about usability testing and how to gather and incorporate user feedback to refine your designs. You’ll also explore responsive design practices to ensure your designs 
+                  work seamlessly across various devices and screen sizes.
+                  <br><br>
+                   The curriculum includes real-world projects that challenge you to apply your skills and build a diverse portfolio. Each module 
+                  features interactive lessons, practical exercises, and case studies to deepen your understanding and enhance your problem-solving abilities. 
+                  By the end of the course, you will have a solid grasp of UI/UX design principles, a portfolio showcasing your work, and a certificate of 
+                  completion that demonstrates your expertise. Whether you’re aiming to start a career in design, enhance your current skill set, or transition into a new role, 
+                  this course equips you with the knowledge and tools to create exceptional user experiences.
+                </p>
+
+                <a href="#">Read Next?</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+    
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+    
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+    
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Reaserch</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+    
+        <div class="footer-col">
+            <h3>Newslatter</h3>
+            <p>You can trust us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+    
+    
+        <div class="copyright">
+            <p>Copyright ©2024 All right reserved | This template is made by Raziya</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Script -->
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        })
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        })
+    </script>
+</body>
+</html>

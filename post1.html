@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Educa Online Learning Platfrom</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <img src="images/logo.svg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa-solid fa-x"></i>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="active"  href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="course.html">Courses</a>
+                </li>
+                <li>
+                    <a  href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!--Home-->
+
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/b2.png" alt="">
+                <h3>Learn Java In The Easiest Way</h3>
+                <p>Our Java course offers a comprehensive introduction to one of the most widely used programming languages in the industry. 
+                   Over 12 weeks, you will master Java’s core concepts, starting with basic syntax, data types, and operators. 
+                   The course progresses through fundamental programming principles such as control flow, object-oriented programming, 
+                   and exception handling, providing a strong foundation for building robust applications. 
+                   <br><br>
+                   As you advance, you'll explore more complex topics including multithreading, file I/O, and networking, 
+                   which are crucial for developing high-performance, scalable software. The curriculum is designed to be
+                   hands-on, featuring practical assignments and real-world projects that help solidify your understanding and application of Java.
+                   <br><br>
+                   You’ll also work with popular Java libraries and frameworks such as Spring and Hibernate, gaining experience in building and managing 
+                   enterprise-level applications. Each module includes interactive lessons, coding exercises, and quizzes to reinforce learning and track your progress.
+                    By the end of the course, you will have developed a portfolio of Java projects showcasing your skills and will receive a certificate of completion 
+                    to validate your expertise. Whether you are aiming to start a career in software development, enhance your existing programming knowledge, or explore 
+                    new technological advancements, this Java course provides the tools and insights necessary for success in the field.
+                </p>
+
+                <a href="#">Read Next?</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+    
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of Service</li>
+        </div>
+    
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputation</li>
+            <li>Power Tools</li>
+            <li>Managed Website</li>
+            <li>Marketing Service</li>
+        </div>
+    
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Reaserch</li>
+            <li>Experts</li>
+            <li>Marketing Service</li>
+        </div>
+    
+        <div class="footer-col">
+            <h3>Newslatter</h3>
+            <p>You can trust us. we only send promo offers,</p>
+            <div class="subscribe">
+                <input type="text" placeholder="Your Email address">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+    
+    
+        <div class="copyright">
+            <p>Copyright ©2024 All right reserved | This template is made by Raziya</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Script -->
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        })
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        })
+    </script>
+</body>
+</html>
